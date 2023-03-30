@@ -1,0 +1,37 @@
+{
+	"comment":"Each tile has an ID and a class, with a few extra properties that may be used later.",
+	"tiles":[
+		{
+			"tile_id": 3,
+			"tile_icon": 1,
+			"tile_name":"Plain",
+			"class_name":"Plains",
+			"specialBehavior":"none",
+			"team":0,
+			"can_utility":true,
+			"can_move":true
+		},
+
+		{
+			"tile_id":4,
+			"tile_icon":2,
+			"tile_name":"Spawner",
+			"class_name":"Spawner",
+			"specialBehavior":"spawnerBehavior",
+			"team":1,
+			"can_utility":false,
+			"can_move":false
+		},
+		
+		{
+			"tile_id":4.5,
+			"tile_icon":2,
+			"tile_name":"Spawner",
+			"class_name":"Spawner",
+			"specialBehavior":"spawnerBehavior",
+			"team":2,
+			"can_utility":false,
+			"can_move":false
+		}
+	]
+}

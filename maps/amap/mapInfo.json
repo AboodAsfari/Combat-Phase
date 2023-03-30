@@ -1,0 +1,36 @@
+{
+	"player_one_info":{
+		"commander_x": 2,
+		"commander_y": 2,
+		
+		"normal_troops":[
+			{
+				"troop_x": 3,
+				"troop_y": 3
+			},
+			{
+				"troop_x": 2,
+				"troop_y": 4
+			}
+		]
+	},
+	
+	"player_two_info":{
+		"commander_x": 12,
+		"commander_y": 1,
+		
+		"normal_troops":[
+			{
+				"troop_x": 12,
+				"troop_y": 3
+			},
+			{
+				"troop_x": 14,
+				"troop_y": 4
+			}
+		]
+	},
+	
+	"centerRowLength":12,
+	"centerColumnLength":8
+}
